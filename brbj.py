@@ -6,7 +6,7 @@
 for x in range(0,100): # x取0到100之间
     for y in range(0,100):
         z=100-x-y
-        if z>0 and 5*x+3*y+z/3==100 and x+y+z==100:   # 两个条件’与‘起来
+        if z>0 and 5*x+3*y+z/3==100 and x+y+z==100:   # 两个条件‘与’起来
             alist = [f"公鸡{x}只，母鸡{y}只，小鸡{z}只"]
             alist.sort(reverse=True);
             print(alist)
