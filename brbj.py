@@ -10,3 +10,5 @@ for x in range(0,100): # x取0到100之间
             alist = [f"公鸡{x}只，母鸡{y}只，小鸡{z}只"]
             alist.sort(reverse=True);
             print(alist)
+
+            
